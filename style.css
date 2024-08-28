@@ -1,0 +1,608 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width:100%;
+    height: 100%;
+}
+
+
+
+.main{
+    width: 100%;
+    background-position: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(/images/Untitled\ design.png);
+}
+
+
+.page1{
+    width:90%;
+    min-height:100vh;
+    margin: 0 auto;
+    padding: 2vw 1vw;
+}
+
+.nav{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+   
+}
+
+.logo h1{
+  padding-left: 2vw;
+  font-size: 3vw;
+  font-weight: bolder;
+}
+.nav a{
+    text-decoration: none;
+    margin-right: 2vw;
+    font-size: 1.1vw;
+    font-weight: 200;
+    color:black;
+}
+.nav button{
+    border-radius: 5px;
+    padding:1vw 1.7vw;
+    color: white;
+    background-color:rgb(20, 54, 148);
+    border: none;
+    margin-right: 0.9vw;
+    transition: all ease 0.9s;
+}
+
+.nav button:hover{
+    scale: 1.1;
+}
+
+.hero{
+    width:100%;
+    height: 85%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 2vw;
+}
+#left{
+    width:43%;
+    margin-top: 10vw;
+   
+}
+
+#left h3{
+    font-size: 1.75vw;
+    font-weight: 600;
+    margin-bottom: 1vw;
+}
+
+#left h1{
+font-size: 2.5vw;
+font-weight: bolder;
+line-height: 3.5vw;
+font-family: "gilroy";
+margin-bottom: 1.3vw;
+}
+#left h4{
+line-height: 1.5vw;
+margin-bottom: 2.5vw;
+color: rgb(63, 63, 63);
+
+}
+
+#left button{
+    padding: 1vw 1.75vw;
+    background-color: rgb(20, 54, 148);
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+}
+
+#right{
+width:55%;
+}
+
+#right img{
+    width:50vw;
+    height: 45vw;
+}
+
+.page7{
+    width:90%;
+    min-height: 20vh;
+    margin:2vw auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 12vw;
+    margin-bottom: 17vw;
+}
+.review{
+    width:28%;
+    height:35%;
+    background-color: #f7f7f7;
+    padding: 1.4vw 1vw;
+    margin:0;
+}
+.review h1{
+    margin-bottom: 1vw;
+    font-weight: 100;
+    font-size: 4.5vw;
+}
+.review p{
+    font-size: 0.95vw;
+    color: rgb(40, 39, 39);
+}
+.review h5{
+    font-size: 0.75;
+    margin-top: 3.9vw;
+    color: rgb(83, 83, 83);
+    font-weight: 400;
+}
+
+  #page2{
+    margin-bottom: 5vw;
+    width: 100%;
+    min-height: 50vh;
+    padding: 8vw 0vw;
+    position: relative;
+   
+}
+
+#circle{
+    width:4vw;
+    height: 4vw;
+    border-radius: 50%;
+    background-color: rgb(5, 18, 74);
+    display: inline-block;
+    margin: 0.5vw 1.7vw;
+}
+
+
+.page3{
+  width:82%;
+  min-height: 70vh;
+  /* background-color: #f7f7f7; */
+  margin: 7vw auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.page3 .left{
+  width: 60%;
+  height: 100%;
+  position: relative;
+}
+
+.page3 .left h1{
+  font-size: 3vw;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-family: "Futura";
+  line-height: 3vw;
+  position: relative;
+}
+
+.page3 video{
+  position: absolute;
+  width: 40vw;
+  height: 30vw;
+  left:20%;
+}
+
+.page3 .right{
+  width:22%;
+  height: 100%;
+}
+
+.page3 .right p{
+  margin-bottom: 3vw;
+  font-size: 1.1vw;
+}
+
+  
+  .page4{
+    width:100%;
+    height:70vh;
+    margin-top: 10vw;
+  }
+  .page4 .book-container{
+    width:80%;
+    height:50vh;
+    margin: 0 auto;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    padding: 2vw 2.5vw;
+    background-image: url(/images/book.png);
+    background-position: center;
+    background-size: cover;
+    
+  }
+
+  .page4 .book-container h1{
+    font-size: 1.75vw;
+    font-weight: bolder;
+    padding-left: 1.55vw;
+  }
+  .page4 p{
+    margin-left: 1.5vw;
+    background-color: rgb(255, 155, 155);
+    padding: 0.7vw;
+    border-radius: 5px;
+    font-size: 1vw;
+    width: 96%;
+    display: none;
+  }
+  .page4 #done{
+    margin-left: 1.5vw;
+    background-color: rgb(130, 252, 119);
+    padding: 0.7vw;
+    border-radius: 5px;
+    font-size: 1vw;
+    width: 96%;
+    display: none;
+
+  }
+  .page4 .book{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 1.7vw;
+    height:80%;
+   
+  }
+  .book select{
+    width:23vw;
+    padding:0.75vw 1vw;
+  }
+
+  .book input{
+    width:23vw;
+    padding:0.75vw 1vw;
+  }
+  .book label{
+    margin-bottom: 0.9vw;
+    display: flex;
+    align-items: center;
+  }
+  .book button{
+    margin-top: 2.7vw;
+   padding:0 9vw;
+   height: 7.2vh;
+    background-color:rgb(20, 54, 148) ;
+    color: #fff;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+
+  }
+
+  .page5{
+    width:100%;
+    min-height: 50vh;
+    margin: 0 auto;
+  }
+
+  .page5 h3{
+    text-align: center;
+    font-size: 2.3vw
+  }
+
+
+  .page5 h1{
+    text-align: center;
+    font-size: 3.4vw;
+    font-family: "futura";
+    margin-top: 0.7vw;
+  }
+  .process{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left:12vw;
+    margin-top: 2.7vw;
+  }
+  
+  .process .process-box img{
+    width:15vw;
+    height: 15vw;
+  }
+
+
+  
+  /* .process-box h4{
+    width:60%;
+    text-align: center;
+  } */
+
+  .process .detail{
+    width:60%;
+    text-align: center;
+  }
+  .detail h2{
+    font-size: 1.7vw;
+    padding-bottom: 1vw;
+    font-weight: bold;
+    font-family: "futura";
+  }
+  .detail h4{
+    font-size: 1.1vw;
+    font-weight: 200;
+    color: rgb(72, 72, 72);
+   
+  }
+  .page6{
+    width: 100%;
+    min-height: 100vh;
+    text-align: center;
+    padding: 3vw;
+    margin-top: 15vw;
+   
+  }
+  .page6 h3{
+    font-weight: 800;
+  }
+  .page6 h1{
+    font-family: "futura";
+    font-size: 2.7vw;
+    margin-bottom: 0.7vw;
+  }
+  .page6 p{
+    font-size: 1.1vw;
+    color: #696868;
+  }
+
+  .vehicle-detail{
+    margin-top: 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+  }
+
+  .page6 .cars{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4vw;
+    margin-left: 5vw;
+  }
+  .cars .name{
+    width:20vw;
+    padding: 1vw 1.5vw;
+    background-color: #f7f7f7;
+    margin-bottom: 1vw;
+    cursor: pointer;
+  }
+
+  .cars .name:hover{
+    background-color: rgb(20, 54, 148);
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .images .image img{
+    width:30vw;
+    height: 20vw;
+  }
+
+  table{
+    width:40%;
+  }
+
+  td, th {
+    padding:0.5vw 1.4vw;
+    border: 1px solid #dddddd;
+  }
+  th{
+    font-size: 1.5vw;
+    font-weight: 600;
+    color: #fff;
+    background-color:rgb(20, 54, 148) ;
+  }
+  .model-detail button{
+    padding:0.9vw 1.5vw;
+    margin-top: 0.7vw;
+    width:17vw;
+    border: none;
+    color: #fff;
+    background-color:rgb(20, 54, 148) ;
+  }
+
+  .page8{
+    width: 85%;
+    min-height: 100vh;
+    margin: 15vw auto;
+    margin-bottom: 10vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .impact-left{
+    width:40%;
+    height: 100vh;
+    margin-left: 3vw;
+  }
+
+  .impact-left h2{
+    font-size: 2.5vw;
+    font-family: "futura";
+    margin-bottom: 2vw;
+    
+  }
+
+  .impact-left h6{
+font-size: 1.3vw;
+padding: 1.5vw;
+padding-left: 0;
+font-weight: 400;
+padding-right: 6vw;
+  }
+  .impact-right{
+    width: 50%;
+    height: 80vh;
+  }
+
+  .impact-right img{
+    width: 90%;
+height:60vh;
+border-radius: 10px;
+margin-left: 5vw;
+  }
+.page9{
+  width: 100%;
+  min-height: 100vh;
+
+}
+.page9 h1{
+  font-size: 2.5vw;
+  font-family: "futura";
+  text-align: center;
+}
+.page9 h3{
+  text-align: center;
+}
+.page9 #para{
+  width:55%;
+  margin: 1.2vw auto;
+  text-align: center;
+}
+.testimonials{
+  width:70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 4vw auto;
+}
+.tests{
+  width:30vw;
+  height: 18vw;
+  background-color: #fffefe;
+  box-shadow: rgba(0, 0, 0, 0.359) 0px 10px 15px 0px;
+ 
+}
+
+.tests p{
+  font-size: 1.5vw;
+  padding: 0 2vw;
+  padding-top: 1.7vw;
+}
+.test-detail{
+  display: flex;
+  align-items: center;
+ gap:15px;
+  padding: 2vw 1.5vw;
+}
+.test-detail img{
+  width: 5vw;
+  height: 5vw;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.page10{
+  width:100%;
+  min-height: 90vh;  
+  background-color: #f7f7f7;
+  /* filter: blur(20px); */
+  background-image: url(/images/faq.webp);
+  background-position:-50%;
+  background-repeat: no-repeat;
+  background-size: left;
+}
+
+.page10 h1{
+  font-size: 2.5vw;
+  font-family: "futura";
+  text-align: center;
+}
+.page10 h3{
+  padding-top: 7vw;
+  text-align: center;
+}
+.page10 p{
+  width:50%;
+  margin: 1.2vw auto;
+  text-align: center;
+  margin-bottom: 3.5vw;
+  
+}
+
+.questions{
+ margin-bottom: 0.1vw;
+  width:45vw;
+  padding: 1.5vw;
+  background-color: #fff;
+  border-bottom: 1px solid rgba(158, 158, 158, 0.466);
+  position: relative;
+  left:30%;
+ 
+}
+.Q1,.Q2,.Q3{
+  transition: 2s ease;
+}
+.A1,.A2,.A3{
+  display: none;
+  padding: 1vw;
+  font-size: 1.5vw;
+  font-weight: 300;
+  color: #494949e3;
+  
+}
+
+.footer{
+  width:100%;
+  min-height: 60vh;
+  display: flex;
+  justify-content: space-evenly;
+ margin-top: 10vw;
+ 
+}
+.footer-div h2{
+text-transform: uppercase;
+font-family: "futura";
+font-size: 1.2vw;
+}
+
+.footer-div h6{
+  line-height: 1.3vw;
+  font-size: 1.1vw;
+  color: #2e2e2e;
+  font-weight: 300;
+  margin: 1vw 0;
+}
+
+.footer-div h5{
+  line-height: 2vw;
+  font-size: 1.1vw;
+  color: #2e2e2e;
+  font-weight: 300;
+  margin: 1vw 0;
+}
+.company h5{
+  cursor: pointer;
+}
+
+.footer-div input{
+  width:17vw;
+  padding: 0.9vw 3.9vw;
+ 
+  border: none;
+  background-color: #dddddd;
+}
+.footer-div button{
+  margin-top: 0.5vw;
+  width:17vw;
+  padding: 0.9vw 3.9vw;
+  background-color:rgb(20, 54, 148);
+  color: #fff;
+  border: none;
+  border: 5px;
+}
+

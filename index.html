@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+    Convenience="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="main">
+        <div class="page1">
+            <div class="nav">
+<div class="logo">
+    <!-- <img src="/images/CAR Rental (2).png" alt=""> -->
+     <h1>CAR Rental</h1>
+</div>
+<div class="menu">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Testimonials</a>
+    <a href="#">Contact</a>
+    <button>Register
+    </button>
+</div>
+            </div>
+            <div class="hero">
+                <div id="left">
+                   <h3>Find Your Perfect Ride!</h3>
+                   <h1>Affordable <span style="color: rgb(2, 2, 79);">Car Rentals</span>,<br> Just a Click Away.</h1>
+                   <h4>Rent the car of your dreams. Unbeatable prices, unlimited miles,flexible pick-up options and much more.</h4>
+                   <a href="#bookcar"><button>Book Ride</button></a>
+                </div>
+                <div id="right">
+                   <img src="/images/herocar.png" alt="">
+                </div>
+            </div>
+        </div>
+        </div>
+
+
+<div class="page4" id="bookcar">
+    <div class="book-container">
+    <h1>Plan Your Trip Now!</h1>
+    <p id="error">All fields required</p>
+    <p id="done">Check your email to confirm an order.</p>
+    <div class="book">
+    <div class="box-form__car-type">
+    <label><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="input-icon"><path d="M7 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path><path d="M17 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path><path d="M5 17h-2v-6l2 -5h9l4 5h1a2 2 0 0 1 2 2v4h-2m-4 0h-6m-6 -6h15m-6 0v-5"></path></svg>
+        &nbsp; Select Your Car Type <b>*</b></label>
+     <select>
+        <option>Select your car type</option>
+        <option value="Audi A1 S-Line">Audi A1 S-Line</option>
+        <option value="VW Golf 6">VW Golf 6</option>
+        <option value="Toyota Camry">Toyota Camry</option>
+        <option value="BMW 320 ModernLine">BMW 320 ModernLine</option>
+        <option value="Mercedes-Benz GLK">Mercedes-Benz GLK</option>
+        <option value="VW Passat CC">VW Passat CC</option></select>
+    </div>
+    <div class="box-form__car-type"><label><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="input-icon"><path d="M18.364 4.636a9 9 0 0 1 .203 12.519l-.203 .21l-4.243 4.242a3 3 0 0 1 -4.097 .135l-.144 -.135l-4.244 -4.243a9 9 0 0 1 12.728 -12.728zm-6.364 3.364a3 3 0 1 0 0 6a3 3 0 0 0 0 -6z" fill="currentColor" stroke-width="0"></path></svg> &nbsp; Pick-up <b>*</b></label><select><option>Select pick up location</option><option>University Campus</option><option>Central train station</option><option>Airport terminal</option><option>Business District</option><option>Kashmir</option></select></div>
+    <div class="box-form__car-type"><label><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="input-icon"><path d="M18.364 4.636a9 9 0 0 1 .203 12.519l-.203 .21l-4.243 4.242a3 3 0 0 1 -4.097 .135l-.144 -.135l-4.244 -4.243a9 9 0 0 1 12.728 -12.728zm-6.364 3.364a3 3 0 1 0 0 6a3 3 0 0 0 0 -6z" fill="currentColor" stroke-width="0"></path></svg> &nbsp; Drop-of <b>*</b></label><select><option>Select drop off location</option><option>Central train station</option><option>University Campus</option><option>Airport terminal</option><option>Business District</option><option>Kashmir</option></select></div>
+    <div class="box-form__car-time"><label for="picktime"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="input-icon"><path d="M4 5m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"></path><path d="M16 3l0 4"></path><path d="M8 3l0 4"></path><path d="M4 11l16 0"></path><path d="M8 15h2v2h-2z"></path></svg> &nbsp; Pick-up <b>*</b></label><input id="picktime" type="date" value=""></div>
+    <div class="box-form__car-time"><label for="droptime"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="input-icon"><path d="M4 5m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"></path><path d="M16 3l0 4"></path><path d="M8 3l0 4"></path><path d="M4 11l16 0"></path><path d="M8 15h2v2h-2z"></path></svg> &nbsp; Drop-of <b>*</b></label><input id="droptime" type="date" value=""></div>
+<button id="btn">Book a ride</button>
+</div>
+</div>
+</div>
+
+</div> 
+  
+<div class="page3">
+<div class="left">
+    <video autoplay loop muted src="/images/cuberto.mp4"></video>
+    <h1>We trust in your journey, until you’re ready to <br>trust the road again.</h1>
+</div>
+<div class="right">
+    <p>When you choose us, you’re not just getting a set of wheels—you’re helping people who need a little extra support get back on their feet. Our goal is to provide dependable and affordable transportation, while also lending a hand to those working to regain their independence.</p>
+    <p>Every time you hit the road with us, you’re making a difference. Together, we’re helping people move forward, one drive at a time.</p>
+</div>
+</div>
+
+<div class="page7">
+    <div class="review">
+        <h1>
+            $500M
+        </h1>
+        <p>Helping travelers save big with affordable rental options.</p>
+        <h5>/001</h5>
+    </div>
+    <div class="review">
+        <h1>
+            $100,000+
+        </h1>
+        <p>ewarded customers with over $100,000 in perks.</p>
+        <h5>/002</h5>
+    </div>
+    <div class="review">
+        <h1>
+           $0
+        </h1>
+        <p>Transparency you can trust—no hidden fees, ever</p>
+        <h5>/003</h5>
+    </div>
+    <div class="review">
+        <h1>
+            $5,000+
+        </h1>
+        <p>Over $5,000 in referral bonuses by sharing the love.</p>
+        <h5>/004</h5>
+    </div>
+    <div class="review">
+        <h1>
+            $10,000+
+        </h1>
+        <p>Contributing to communities with $10,000 in donations.</p>
+        <h5>/005</h5>
+    </div>
+    <div class="review">
+        <h1>
+            1M+
+        </h1>
+        <p>Trusted by over a million satisfied customers worldwide.</p>
+        <h5>/006</h5>
+    </div>
+</div>
+
+<div class="page5">
+    <h3>Plan your trip now!</h3>
+    <h1>Quick & easy car rental</h1>
+    <div class="process">
+        <div class="process-box">
+            <img src="/images/Untitled design (2).png" alt="">
+            <div class="detail">
+                <h2>Select car</h2>
+                <h4>We offers a big range of vehicles for all your driving needs. We have the perfect car to meet your needs</h4>
+            </div>
+        </div>
+        <div class="process-box"><img src="/images/Untitled design (3).png" alt="">
+            <div class="detail">
+                <h2>Contact Operator</h2>
+                <h4>Our knowledgeable and friendly operators are always ready to help with any questions or concerns</h4>
+            </div>
+        </div>
+        <div class="process-box"><img src="/images/Untitled design (6).png" alt="">
+            <div class="detail">
+                <h2>Let's Drive</h2>
+        <h4>Whether you're hitting the open road, we've got you covered with our wide range of cars</h4>
+            </div>
+        </div>
+       
+    </div>
+</div>
+
+<div class="page6">
+    <h3>Vehicle Models</h3>
+    <h1>Our rental fleed</h1>
+    <p>Choose from a variety of our amazing vehicles to rent for your next<br> adventure or business trip</p>
+    <div class="vehicle-detail">
+        <div class="cars">
+        </div>
+<div class="images">
+   
+</div>
+<div class="model-detail">
+    <table id="table">
+        
+    </table>
+   <a href="#bookcar"><button>BOOK NOW</button></a>
+</div>
+</div>
+</div>
+
+<div class="page8">
+    <div class="impact-left">
+        <h2>OUR IMPACT</h2>
+        <h6>We don't just rent cars<br><br> 
+            What we do is to give you the freedom to drive your own path.<br><br>
+
+            We believe that true empowerment comes from the ability to navigate your own path. Our role isn’t to change lives but to offer the tools that help you do it yourself. For those who’ve faced challenges, finding independence through reliable transportation is a crucial step forward.
+        <br><br>Through experiences that promote trust and reliability, we aim to ignite and nurture a sense of independence in every customer we serve. With us, you're not just renting a car; you're taking the wheel of your own story.
+        </h6>
+    </div>
+    <div class="impact-right">
+<img src="/images/impact1.webp" alt="">
+    </div>
+</div>
+
+<div class="page9">
+    <h3>Reviewed by People</h3>
+    <h1>Client's Testimonials</h1>
+    <p id="para">Discover the positive impact we've made on the our clients by reading through their testimonials.<br> Our clients have experienced our service and results, and they're eager to share their positive experiences with you.</p>
+    <div class="testimonials">
+        <div class="tests">
+            <p>"We rented a car from this website and had an amazing experience! The booking was easy and the rental rates were very affordable. "</p>
+            <div class="test-detail">
+            <img src="/images/imrankhan.jfif">
+            <h2>Imran Khan</h2>
+          
+            </div>
+        </div>
+        <div class="tests">
+            <p>"The car was in great condition and made our trip even better. Highly recommend for this car rental website!"</p><br>
+            <div class="test-detail">
+                <img src="/images/maryam.jfif">
+                <h2>Maryam Nawaz</h2>
+               
+                </div>
+        </div>
+    </div>
+</div>
+<div class="page10">
+    <h3>FAQ</h3>
+    <h1>Frequently Asked Questions</h1>
+    <p>Frequently Asked Questions About the Car Rental Booking Process on Our Website: Answers to Common Concerns and Inquiries.</p>
+<div class="all-questions">
+    <div class="questions">
+        <div class="Q1"><h4>1. What is special about comparing rental car deals?</h4></div>
+<div class="A1">
+    <h5>The car was in great condition and made our trip even better. Highly recommend for this car rental website!"</h5>
+
+</div>
+    </div>
+
+<div class="questions">
+    <div class="Q2">  <h4>2. How do I find the car rental deals?</h4></div>
+  <div class="A2"> <h5>You can find car rental deals by researching online and comparing prices from different rental companies. Websites such as Expedia, Kayak, and Travelocity allow you to compare prices and view available rental options. It is also recommended to sign up for email newsletters and follow rental car companies on social media to be informed of any special deals or promotions.</h5></div>
+</div>
+<div class="questions">
+    <div class="Q3"><h4>3. How do I find such low rental car prices?</h4></div>
+    <div class="A3"> <h5>Book in advance: Booking your rental car ahead of time can often result in lower prices. Compare prices from multiple companies: Use websites like Kayak, Expedia, or Travelocity to compare prices from multiple rental car companies. Look for discount codes and coupons: Search for discount codes and coupons that you can use to lower the rental price. Renting from an off-airport location can sometimes result in lower prices.</h5></div>
+</div>
+</div>
+</div>
+
+<div class="footer">
+    <div class="footer-div"><h2>CAR Rental</h2>
+    <h6>We offers a big range of vehicles for<br> all your driving needs. We have the <br> perfect car to meet your needs.</h6>
+        <h5>(123) -456-789<br>
+       carrental@gmail.com<br>
+     Design by XpeedStudio</h5>
+    </div>
+    <div class="footer-div company" ><h2>Company</h2>
+    <h5>
+Pakistan<br>
+Careers<br>
+Mobile<br>
+Blog<br>
+How we work
+    </h5>
+    </div>
+    <div class="footer-div"><h2>Working Hours</h2>
+<h5>Mon - Fri: 9:00AM - 9:00PM<br>
+    Sat: 9:00AM - 19:00PM<br>
+    Sun: Closed</h5>
+    </div>
+    <div class="footer-div"><h2>Subscription</h2>
+    <h5>Subscribe your Email address for<br>latest news & updates.</h5>
+<input type="email" placeholder="Email Address"><br>
+<button>Submit</button>
+</div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
